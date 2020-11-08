@@ -434,15 +434,18 @@ nav .caret {
     margin: 6px -5px 0 0!important;
     float: right;
 }
-
-.mg-md {
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-
-.mg-lg {
-    margin-top: 10px;
-    margin-bottom: 40px;
+.h2{
+    color: white;
+    .mg-md {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .mg-lg {
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+    
 }
 
 .btn {
