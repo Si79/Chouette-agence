@@ -700,7 +700,11 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto auto auto auto
+}
+
+.icon-md {
+    color:rgba(255, 255, 255, .6) !important;
 }
 
 h2 {
