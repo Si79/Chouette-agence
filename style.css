@@ -82,7 +82,6 @@ a:hover {
 
 .bloc-bg-texture::before {
     content: "";
-    background-size: 2px 2px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -91,7 +90,6 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -783,7 +781,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: black!important;
+    color:#FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
