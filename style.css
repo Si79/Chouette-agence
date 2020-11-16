@@ -438,6 +438,9 @@ nav .caret {
     margin-top: 10px;
     margin-bottom: 20px;
 }
+.mg-md, text-center{
+    line-height: 2;
+}
 
 .mg-lg {
     margin-top: 10px;
@@ -650,7 +653,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
 }
 
 .container {
