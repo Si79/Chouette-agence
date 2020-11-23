@@ -11,7 +11,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, viewport-fit=cover"
     />
-    <link rel="shortcut icon" type="image/webp" href="favicon.webp" />
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" type="text/css" href="./css/font-awesome.css" />
@@ -34,12 +34,13 @@
                 Agence web à paris, stratégie web, web design, illustrations,
                 design de site web, site web, web, internet, site internet, site
               </div>
-              <a class="navbar-brand" href="index.html"
-                ><img
-                  src="img/la-chouette-agence.webp"
-                  alt="paris web design logo agence web meilleure agence"
-                  height="40"
-              /></a>
+              <a class="navbar-brand" href="index.html">
+                <picture>
+                  <source srcset="img/la-chouette-agence.webp" type="image/webp">
+                  <source srcset="img/la-chouette-agence.jpg" type="image/jpeg">
+                <img src="img/la-chouette-agence.jpg" alt="paris web design logo agence web meilleure agence" height="40"/> 
+                </picture>
+                </a>
               <div class="keywords" style="color: #cccccc; font-size: 1px">
                 Agence web à paris, stratégie web, web design, illustrations,
                 design de site web, site web, web, internet, site internet, site
@@ -66,18 +67,21 @@
         </div>
       </div>
       <div
-        class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax"
+        class="bloc bg-banniere d-bloc bloc-bg-texture texture-paper b-parallax"
         id="bloc-1-hero"
       >
         <div class="container bloc-lg">
           <div class="row tight-width-whitespace">
             <div class="col-sm-12">
-              <img
-                src="img/logo.webp"
+              <picture>
+                <source srcset="img/logo.webp" type="image/webp">
+                <source srcset="img/logo.jpg" type="image/jpeg">
+              <img src="img/logo.jpg"
                 class="center-block image-resize-mode"
                 width="100"
                 alt="La chouette agence, agence web paris, création logo paris"
               />
+              </picture>
               <h1 class="text-center hero-bloc-text tc-white">
                 Contactez la chouette agence.
               </h1>
